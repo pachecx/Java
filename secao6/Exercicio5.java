@@ -7,5 +7,18 @@ package secao6;
     Caso contrário, exiba "Acesso permitido".
      */
 public class Exercicio5 {
-    
+    public static void main(String[] args) {
+        verificacao(5 );
+    }
+
+    public static int verificacao(int idade){
+        
+        if(idade <= 18){
+            System.out.println("Acesso negado!");
+            System.exit(0);
+        }else{
+            System.err.println("Acesso permitido!");
+        }
+        return idade;
+    }
 }

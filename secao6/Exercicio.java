@@ -1,5 +1,4 @@
 package secao6;
-    
 /*
     > Exercício 1: Função para Converter Temperatura
 
@@ -11,6 +10,11 @@ package secao6;
 
 public class Exercicio {
     public static void main(String[] args) {
-        
+     
+        System.out.println("Resultado: " + Converter(25));
     }
+
+    public static double Converter(double c){
+        return (c * 1.8) + 32;
+    };
 }
