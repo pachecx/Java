@@ -7,5 +7,14 @@ package secao7;
     
  */
 public class Exercico2 {
-    
+    public static void main(String[] args) {
+      int num = 0;
+      while (num <= 19) {
+         num += 1;
+
+         if(num % 2 == 0){
+            System.out.println(num);
+         }
+      }
+    }
 }

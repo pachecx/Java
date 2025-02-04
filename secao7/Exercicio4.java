@@ -8,5 +8,23 @@ package secao7;
     // um numero aleatorio que mediante a ser X, pare o loop
      */
 public class Exercicio4 {
-    
+    public static void main(String[] args) {
+        int opcao;
+
+        do {
+
+            System.out.println("Exercício 4 - Menu");
+            System.out.println("0) Refrigerante");
+            System.out.println("1) Hamburger");
+            System.out.println("2) Cachorro quente");
+            System.out.println("3) Sushi");
+            System.out.println("4) Sair");
+
+            opcao = (int)(Math.random() * 5);
+
+            System.out.println("A opção escolhida foi: " + opcao);
+
+        } while(opcao != 4);
+
+    }
 }
