@@ -1,4 +1,7 @@
 package secao8;
+
+import java.util.Arrays;
+
 /*
     > Exercício 4: Substituir Valores em um Array com Condição
 
@@ -12,6 +15,15 @@ package secao8;
      */
 public class Exercicio4 {
     public static void main(String[] args) {
-        
+        int[] arrays = { -1, 2 , 3, -10, -5, 0 };
+        System.out.println("Antes da modificação: " + Arrays.toString(arrays));
+
+        for(int i = 0; i < arrays.length; i++){
+            if(arrays[i] < 0){
+                arrays[i] = 0;
+            }
+        }
+        System.out.println("Depois da modificação: " + Arrays.toString(arrays));
+
     }
 }
