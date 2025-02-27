@@ -39,6 +39,27 @@ public class POO {
         System.out.println("O nome do individuo é : " + joao.getNome());
 
         System.out.println("A idade do meliante é: " + joao.getIdade());
+    
+        //Setter
+        ContaBancaria contaDaAna = new ContaBancaria();
+
+        contaDaAna.setTitular("Ana");
+
+        contaDaAna.setSaldo(35);
+        
+        contaDaAna.getInfo();
+
+        contaDaAna.getSaldo();
+
+        Produto produto = new Produto();
+
+        produto.setNome("regata");
+        System.out.println(produto.getNome());
+
+        produto.getPreco(100);
+
+        produto.aplicarDeconto(10);
+
     }
     
 }
